@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949720524220",
+    "project_id": "login-and-logout-45112",
+    "storage_bucket": "login-and-logout-45112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949720524220:android:70ba62438e7cacf6aff7b9",
+        "android_client_info": {
+          "package_name": "org.techtales.loginlogout_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6gm4FA0aY4X4-IerA1j8CrHGjbJGtiAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
