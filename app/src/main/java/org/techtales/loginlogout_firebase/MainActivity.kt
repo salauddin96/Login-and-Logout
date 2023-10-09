@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.haveAcc.setOnClickListener {
+            startActivity(Intent(this@MainActivity, loginActivity::class.java))
+            finish()
+        }
         binding.regButton.setOnClickListener{
             if (binding.emailTxt.text.toString() == "" || binding.passTxt.text.toString() == "") {
                 Toast.makeText(
